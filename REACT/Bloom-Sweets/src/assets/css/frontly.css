@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.frontly{
+    height: 100%;
+    width: 100%;
+  }
+  .frontly h1{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    color: #003341;
+    font-size: 5vw;
+  }
+  .btn {
+    border: none; 
+    text-align: center; 
+    display: inline-block;
+    font-size: 16px; 
+    border-radius: 50px; 
+    margin-left: 20px ;
+    transition: 0.3s ease-in-out;
+}
+.btn a {
+    color: #003341;  
+    text-decoration: none;
+    font-weight: 600;
+    display: block; 
+    padding: 10px 20px;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+.btn a:hover{
+  color: white;
+  background-color: #003341; 
+}
+  
+  .frontly video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+  }
